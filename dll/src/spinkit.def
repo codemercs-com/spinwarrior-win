@@ -1,0 +1,24 @@
+LIBRARY spinkit
+  EXPORTS
+    SpinKitOpenDevice             @1
+    SpinKitCloseDevice            @2
+    SpinKitRead                   @3
+    SpinKitReadNonBlocking        @4
+    SpinKitGetNumDevs             @5
+    SpinKitGetDeviceHandle        @6
+    SpinKitGetProductId           @7
+    SpinKitGetRevision            @8
+    SpinKitGetSerialNumber       @10
+    SpinKitSetTimeout            @11
+    SpinKitVersion               @12
+    
+    CMSendVirtualKeyEx           @50
+    CMSendScanCodeEx             @51
+    CMSendVirtualKey             @52
+    CMSendScanCode               @53
+    CMSendVirtualKeySequence     @54
+    CMSendScanCodeSequence       @55
+    CMSendVirtualKeySequenceEx   @56
+    CMSendScanCodeSequenceEx     @57
+    CMSendString                 @58
+    CMSendSpinChar               @59
